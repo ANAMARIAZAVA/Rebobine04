@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1523"
+    tools:context=".CadastroClienteActivity">
+
+    <!-- Nome do aplicativo -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#0F1523" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Rebobine"
+        android:textColor="#FFC107"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Logo do Aplicativo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appName"
+        app:srcCompat="@mipmap/logoazul" />
+
+    <!-- Formulário de Cadastro de Cliente -->
+    <LinearLayout
+        android:id="@+id/layerCadastroCliente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#1A1A1A"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appLogo">
+
+        <!-- Nome do Cliente -->
+        <TextView
+            android:id="@+id/rotuloNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Nome Completo"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/campoNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#1A1A1A"
+            android:backgroundTint="#FFC107"
+            android:hint="Digite o nome completo"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888" />
+
+        <!-- Telefone do Cliente -->
+        <TextView
+            android:id="@+id/rotuloTelefoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Telefone"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/campoTelefoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#1A1A1A"
+            android:backgroundTint="#FFC107"
+            android:hint="Digite o telefone"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888" />
+
+        <!-- Email do Cliente -->
+        <TextView
+            android:id="@+id/rotuloEmailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Email"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/campoEmailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#1A1A1A"
+            android:backgroundTint="#FFC107"
+            android:hint="Digite o email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888" />
+
+        <!-- CPF do Cliente -->
+        <TextView
+            android:id="@+id/rotuloCpfCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="CPF"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/campoCpfCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#1A1A1A"
+            android:backgroundTint="#FFC107"
+            android:hint="Digite o CPF"
+            android:inputType="number"
+            android:maxLength="14"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888" />
+
+        <!-- Data de Nascimento do Cliente -->
+        <TextView
+            android:id="@+id/rotuloDataNascimentoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Data de Nascimento"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/campoDataNascimentoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#1A1A1A"
+            android:backgroundTint="#FFC107"
+            android:hint="Digite a data de nascimento"
+            android:inputType="date"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888" />
+
+        <!-- Botão de Cadastro de Cliente -->
+        <Button
+            android:id="@+id/buttonCadastrarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:text="CADASTRAR CLIENTE"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
