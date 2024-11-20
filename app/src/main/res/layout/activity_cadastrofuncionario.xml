@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:elegantTextHeight="false"
-                android:text="REBONINE"
+                android:text="REBOBINE"
                 android:textColor="#FEC007"
                 android:textSize="40sp" />
 
