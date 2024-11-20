@@ -8,48 +8,45 @@
     tools:context=".CadastroClienteActivity">
 
     <!-- Nome do aplicativo -->
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="#0F1523" />
 
-    <TextView
-        android:id="@+id/appName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Rebobine"
-        android:textColor="#FFC107"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="21dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/logoazul" />
+
+        <TextView
+            android:id="@+id/rotulologo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="REBOBINE"
+            android:textColor="#FEC007"
+            android:textSize="60sp" />
+
+    </LinearLayout>
 
     <!-- Logo do Aplicativo -->
-    <ImageView
-        android:id="@+id/appLogo"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appName"
-        app:srcCompat="@mipmap/logoazul" />
 
     <!-- Formulário de Cadastro de Cliente -->
+
     <LinearLayout
         android:id="@+id/layerCadastroCliente"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="412dp"
+        android:layout_height="569dp"
         android:background="#1A1A1A"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appLogo">
+        tools:layout_editor_absoluteY="97dp">
 
         <!-- Nome do Cliente -->
         <TextView
