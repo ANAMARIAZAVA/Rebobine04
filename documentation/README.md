@@ -40,12 +40,15 @@ O **Rebobine** foi criado para facilitar a gestão de locadoras de filmes retrô
 ### 📱 **Telas do Aplicativo**
 
 #### 1. Tela de Login
-![Tela de Login](C:\Users\anama\AndroidStudioProjects\Rebobine04\documentation\imagensReadme\RebobineTelacadastrocliente.png)
+![Tela de Login](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTeladelogin1.png?raw=true)
 
-#### 2. Tela de Cadastro de Cliente
-![Tela de Cadastro de Cliente]C:\Users\anama\AndroidStudioProjects\Rebobine04\documentation\imagensReadme\RebobineTelacadastrocliente.png)
+#### 2. Tela de Cadastro de Funcionario
+![Tela de Cadastro de Funcionário](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTelacadastrocliente1.png?raw=true)
 
-#### 3. Tela Home - Catálogo de Filmes
+#### 3. Tela de Cadastro de Cliente
+![Tela de Cadastro de Cliente](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTelacadastrocliente1.png?raw=true)
+
+#### 4. Tela Home - Catálogo de Filmes Home
 ![Tela Home](https://via.placeholder.com/500x300)
 
 #### 4. Tela de Detalhes do Filme
