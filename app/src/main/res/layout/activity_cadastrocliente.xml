@@ -5,7 +5,7 @@
     android:id="@+id/cadastrocliente"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F1523"
+    android:background="#FEC007"
     tools:context=".cadastrocliente">
 
     <LinearLayout
@@ -35,10 +35,10 @@
 
             <TextView
                 android:id="@+id/rotulotitulocadfunc"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:elegantTextHeight="false"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/exmplo"
                 android:text="REBOBINE"
                 android:textColor="#FEC007"
                 android:textSize="40sp" />
@@ -64,8 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="#1A1A1A"
-                android:backgroundTint="#FFC107"
+                android:background="@drawable/exmplo"
                 android:hint="Digite o nome completo"
                 android:inputType="text"
                 android:padding="12dp"
