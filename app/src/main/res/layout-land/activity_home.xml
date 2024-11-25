@@ -1,0 +1,74 @@
+ME MOSTRE A IMAGEM DE COMO FICARÁ A IMAGEM DESTE PROJETO : <?xml version="1.0" encoding="utf-8"?> <!-- Declaração XML -->
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1523"
+    tools:context=".HomeActivity">
+
+    <!-- Barra de Título -->
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="726dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="365dp"
+            android:layout_height="430dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="715dp"
+                android:background="#1A1A1A"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Logo do Aplicativo -->
+
+                <!-- Nome do Aplicativo -->
+
+                <EditText
+                    android:id="@+id/searchMovie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#2A2A2A"
+                    android:hint="Buscar Filme"
+                    android:padding="12dp"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewFilmes"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/rotuloHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:text="REBOBINE"
+                    android:textColor="#FEC007"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/logoazul" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Campo de Pesquisa -->
+
+    <!-- Lista de Filmes -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

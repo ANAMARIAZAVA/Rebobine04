@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#0F1523">
+
+    <!-- Título da Tela -->
+    <TextView
+        android:id="@+id/textTituloFilme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do Filme"
+        android:textColor="#FEC007"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nome do Filme (Não editável) -->
+    <TextView
+        android:id="@+id/textNomeFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Filme: [Nome do Filme]"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A2A"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Categoria do Filme (Não editável) -->
+    <TextView
+        android:id="@+id/textCategoriaFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria: [Categoria do Filme]"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A2A"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Descrição do Filme (Não editável) -->
+    <TextView
+        android:id="@+id/textDescricaoFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição: [Descrição do Filme]"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A2A"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Ano de Lançamento (Não editável) -->
+    <TextView
+        android:id="@+id/textAnoLancamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano de Lançamento: [Ano do Filme]"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A2A"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Editável: Status de Disponibilidade -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status de Disponibilidade"
+        android:textColor="#FEC007"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerStatusDisponibilidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/status_disponibilidade"
+        android:background="#2A2A2A"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Seção para Quando o Filme Está Disponível -->
+    <LinearLayout
+        android:id="@+id/layoutReservar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Buscar Cliente -->
+        <EditText
+            android:id="@+id/editTextBuscarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar Cliente"
+            android:background="#2A2A2A"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Data de Devolução -->
+        <EditText
+            android:id="@+id/editTextDataDevolucao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data de Devolução"
+            android:background="#2A2A2A"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="date" />
+
+        <!-- Botão Confirmar Reserva -->
+        <Button
+            android:id="@+id/buttonConfirmarReserva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Reserva"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Seção para Quando o Filme Está Indisponível -->
+    <LinearLayout
+        android:id="@+id/layoutIndisponivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Status do Aluguel -->
+        <TextView
+            android:id="@+id/textStatusAluguel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Em Dia/Atrasado"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A2A"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botão Devolvido -->
+        <Button
+            android:id="@+id/buttonDevolvido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marcar como Devolvido"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
+
