@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/rotuloApp"
+            android:id="@+id/rotuloAppMain"
             android:layout_width="match_parent"
             android:layout_height="119dp"
             android:fontFamily="sans-serif-condensed"
