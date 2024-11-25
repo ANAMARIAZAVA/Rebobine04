@@ -51,31 +51,29 @@ O **Rebobine** foi criado para facilitar a gestão de locadoras de filmes retrô
 
 #### 1. Tela de Login
 <<<<<<< HEAD
-![Tela de Login](./documentation/imagensReadme/RebobineTelalogin.png)
+![Tela de Login](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTeladelogin1.png?raw=true)
 
 #### 2. Tela de Cadastro de Cliente
-![Tela de Cadastro de Cliente](./documentation/imagensReadme/RebobineTelacadastrocliente.png)
+![Tela de Cadastro de Cliente](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTelacadastrocliente1.png?raw=true)
 
 #### 3. Tela Home - Catálogo de Filmes
 ![Tela Home](./documentation/imagensReadme/RebobineTelaHome.png)
 =======
-![Tela de Login](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTeladelogin1.png?raw=true)
+![Tela de Login](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/Tela%20home.jpg?raw=true)
 
 #### 2. Tela de Cadastro de Funcionario
-![Tela de Cadastro de Funcionário](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTelacadastrocliente1.png?raw=true)
+![Tela de Cadastro de Funcionário](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/Tela%20de%20Cadastro%20Funcionario1.jpg?raw=true)
 
-#### 3. Tela de Cadastro de Cliente
-![Tela de Cadastro de Cliente](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/RebobineTelacadastrocliente1.png?raw=true)
 
-#### 4. Tela Home - Catálogo de Filmes Home
-![Tela Home](https://via.placeholder.com/500x300)
->>>>>>> origin/master
+#### 3. Tela Home - Catálogo de Filmes Home
+![Tela Home](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/Tela%20home.jpg?raw=true)
+
 
 #### 4. Tela de Cadastro de Filme
-![Tela de Cadastro de Filme](./documentation/imagensReadme/RebobineTelacadastrofilme.png)
+![Tela de Cadastro de Filme](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/Tela%20de%20Cadastro%20Funcionario1.jpg?raw=true)
 
 #### 5. Tela de Detalhes do Filme
-![Tela de Detalhes do Filme](./documentation/imagensReadme/RebobineTeladetalhesfilme.png)
+![Tela de Detalhes do Filme](https://github.com/ANAMARIAZAVA/Rebobine04/blob/master/documentation/imagensReadme/tela%20detalhe%20FIlme.jpg?raw=true)
 
 ---
 
