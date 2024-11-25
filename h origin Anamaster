@@ -1,0 +1,84 @@
+[33mcommit e98a681e913f31b362d505fd6bdc13ea8dfb7f39[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mAna[m[33m)[m
+Merge: b3f1d36 20f2eb4
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Sun Nov 24 22:17:44 2024 -0300
+
+    mudanças finais de domingo
+
+[33mcommit b3f1d368a9e2d2ab8820f8e002451261630a5ea3[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Sun Nov 24 22:12:52 2024 -0300
+
+    Tela criadas, home, cadastro filme, tela filme para fazer a reserva ou ver seu status e atualizaçao documentação
+
+[33mcommit 56edeae7e49809534b7be362faa109c409e5a3cd[m[33m ([m[1;31morigin/Ana[m[33m, [m[1;32mMaster[m[33m)[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Sun Nov 24 10:55:53 2024 -0300
+
+    atualizada até aqui
+
+[33mcommit 20f2eb491dab98fdf5d552418e20fa038f7f24bb[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Ana Maria Zava <102667513+ANAMARIAZAVA@users.noreply.github.com>
+Date:   Wed Nov 20 21:59:32 2024 -0300
+
+    Update README.md
+
+[33mcommit dfc1300d6d315f3236cb1316921f4f270729c47f[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 21:53:23 2024 -0300
+
+    correção imagens.1 png
+
+[33mcommit deb496f1116dfc8f2e7b7249d736ff67d9ea6aaa[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 20:06:58 2024 -0300
+
+    correção imagens readmi
+
+[33mcommit 6ac5cf045087ac50b32315775ca34386201ab686[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 19:51:22 2024 -0300
+
+    correção escrita
+
+[33mcommit 9499164e327934557478eb596cb251034b4f30a3[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 19:25:23 2024 -0300
+
+    Botão da tela funcionario com o nome correto, e imagens da tela na pasta document
+
+[33mcommit d0f99e152242009c0e4398246dc362507acc7d31[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 18:15:34 2024 -0300
+
+    criado tela: login, cadstro cliente, cadastro funcionario
+
+[33mcommit b11b91e1fb00019b6069a14fd4cb50289a326468[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 14:06:28 2024 -0300
+
+    alterção não comitada
+
+[33mcommit a53d017164bbeb6ef3a8f5ffe1abd39c3a70b086[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 13:33:26 2024 -0300
+
+    pasta documentos para explicar todo o projeto
+
+[33mcommit 9bd6785917072d8e17d540b798b1ad8a6c61c8c6[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Wed Nov 20 12:47:49 2024 -0300
+
+    design da Tela de loguin e de cadastro prontas
+
+[33mcommit 06df9c3b07004d2ad78a615d0183d269f02a806f[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Tue Nov 19 12:08:39 2024 -0300
+
+    Primeiro commit
+
+[33mcommit 4f8cb06487e4dd64f343a8571728c8e851b949c9[m
+Author: ANAMARIAZAVA <anamariazava@hotmail.com>
+Date:   Tue Nov 19 12:05:19 2024 -0300
+
+    Initial commit
