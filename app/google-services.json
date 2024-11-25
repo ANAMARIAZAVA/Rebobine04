@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584348874406",
+    "project_id": "rebobinepdm",
+    "storage_bucket": "rebobinepdm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584348874406:android:b3a4095ff5ea72faef6667",
+        "android_client_info": {
+          "package_name": "com.example.rebobine04"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB3C3NUuu1wD8QbJc5aybYG7H0hcCPlQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
