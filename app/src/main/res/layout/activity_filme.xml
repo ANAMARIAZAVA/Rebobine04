@@ -32,22 +32,13 @@
         android:id="@+id/textCategoriaFilme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Categoria: [Categoria do Filme]"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"
         android:background="#2A2A2A"
         android:padding="12dp"
-        android:layout_marginBottom="8dp" />
+        android:text="Diretor do Filme: [Diretor do Filme]"
+        android:textColor="#FFFFFF" />
 
     <!-- Descrição do Filme (Não editável) -->
-    <TextView
-        android:id="@+id/textDescricaoFilme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Descrição: [Descrição do Filme]"
-        android:textColor="#FFFFFF"
-        android:background="#2A2A2A"
-        android:padding="12dp"
-        android:layout_marginBottom="8dp" />
 
     <!-- Ano de Lançamento (Não editável) -->
     <TextView
@@ -67,16 +58,6 @@
         android:text="Status de Disponibilidade"
         android:textColor="#FEC007"
         android:layout_marginBottom="8dp" />
-
-    <Spinner
-        android:id="@+id/spinnerStatusDisponibilidade"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/status_disponibilidade"
-        android:background="#2A2A2A"
-        android:textColor="#FFFFFF"
-        android:padding="12dp"
-        android:layout_marginBottom="16dp" />
 
     <!-- Seção para Quando o Filme Está Disponível -->
     <LinearLayout
@@ -147,6 +128,18 @@
             android:text="Marcar como Devolvido"
             android:backgroundTint="#4CAF50"
             android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="52dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView" />
     </LinearLayout>
 </LinearLayout>
 

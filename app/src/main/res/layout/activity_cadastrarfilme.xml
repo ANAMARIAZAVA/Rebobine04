@@ -21,85 +21,67 @@
         android:id="@+id/editTextNomeFilme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome do Filme"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
         android:background="#2A2A2A"
+        android:backgroundTint="#FEC007"
+        android:hint="Nome do Filme"
         android:padding="12dp"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="#FFFFFF" />
 
     <!-- Categoria do Filme -->
     <EditText
         android:id="@+id/editTextCategoriaFilme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Categoria (ex: Romance, Aventura)"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
         android:background="#2A2A2A"
+        android:backgroundTint="#FEC007"
+        android:hint="Categoria (ex: Romance, Aventura)"
         android:padding="12dp"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="#FFFFFF" />
 
     <!-- Descrição do Filme -->
     <EditText
         android:id="@+id/editTextDescricaoFilme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descrição do Filme"
-        android:textColor="#FFFFFF"
-        android:background="#2A2A2A"
-        android:padding="12dp"
         android:layout_marginBottom="16dp"
+        android:background="#2A2A2A"
+        android:backgroundTint="#FEC007"
+        android:gravity="top"
+        android:hint="Descrição do Filme"
         android:lines="4"
-        android:gravity="top"/>
+        android:padding="12dp"
+        android:textColor="#FFFFFF" />
 
     <!-- Ano de Lançamento -->
     <EditText
         android:id="@+id/editTextAnoLancamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ano de Lançamento"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
         android:background="#2A2A2A"
-        android:padding="12dp"
+        android:backgroundTint="#FEC007"
+        android:hint="Ano de Lançamento"
         android:inputType="number"
-        android:layout_marginBottom="16dp"/>
+        android:padding="12dp"
+        android:textColor="#FFFFFF" />
 
     <!-- Seção de Imagem da Capa do Filme -->
-    <TextView
-        android:id="@+id/textImagemCapa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Selecione a Capa do Filme"
-        android:textColor="#FEC007"
-        android:layout_marginBottom="8dp"/>
 
     <!-- ImageView para Exibir a Imagem Capa -->
-    <ImageView
-        android:id="@+id/imageViewCapaFilme"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/ic_default_image"
-        android:scaleType="centerCrop"
-        android:layout_marginBottom="16dp"/>
 
     <!-- Botão para Selecionar Imagem -->
-    <Button
-        android:id="@+id/buttonSelecionarImagem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Escolher Capa do Filme"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#F44336"
-        android:layout_marginBottom="16dp"/>
 
     <!-- Botão Confirmar Cadastro -->
     <Button
         android:id="@+id/buttonConfirmarCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FEC007"
         android:text="Confirmar Cadastro"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#F44336"
-        android:layout_marginTop="16dp"/>
+        android:textColor="#0F1523" />
 
 </LinearLayout>
 

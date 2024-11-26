@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FEC007"
-    tools:context=".cadastrocliente">
+    tools:context=".ActivityClasses.cadastrocliente">
 
     <LinearLayout
         android:id="@+id/layerCadastroCliente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="427dp"
+        android:layout_height="734dp"
         android:background="#1A1A1A"
         android:orientation="vertical"
         android:padding="16dp"
@@ -60,11 +60,12 @@
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/campoNomeFunc"
+                android:id="@+id/nomeRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/exmplo"
+                android:background="#1A1A1A"
+                android:backgroundTint="#FFC107"
                 android:hint="Digite o nome completo"
                 android:inputType="text"
                 android:padding="12dp"
@@ -104,7 +105,7 @@
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/campoEmailFunc"
+                android:id="@+id/emailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -139,30 +140,8 @@
                 android:textColor="#FFFFFF"
                 android:textColorHint="#888888" />
 
-            <TextView
-                android:id="@+id/rotuloDataNascimentoFunc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Data de Nascimento"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
-
-            <EditText
-                android:id="@+id/campoDataNascimentoCliente"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:background="#1A1A1A"
-                android:backgroundTint="#FFC107"
-                android:hint="Digite a data de nascimento"
-                android:inputType="date"
-                android:padding="12dp"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#888888" />
-
             <Button
-                android:id="@+id/buttonCadastrarFunc"
+                android:id="@+id/btCadastrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFC107"

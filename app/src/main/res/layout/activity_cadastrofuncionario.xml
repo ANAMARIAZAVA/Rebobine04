@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0F1523"
-    tools:context=".cadastrofuncionario">
+    tools:context=".ActivityClasses.cadastrofuncionario">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -49,7 +49,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Nome do Cliente -->
             <TextView
                 android:id="@+id/rotuloNomeFunc"
                 android:layout_width="match_parent"
@@ -60,43 +59,18 @@
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/campoNomeFunc"
+                android:id="@+id/nomeRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:background="#1A1A1A"
                 android:backgroundTint="#FFC107"
                 android:hint="Digite o nome completo"
-                android:inputType="text"
+                android:inputType="textPersonName"
                 android:padding="12dp"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#888888" />
 
-            <!-- Telefone do Cliente -->
-            <TextView
-                android:id="@+id/rotuloTelefoneCliente"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Telefone"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
-
-            <EditText
-                android:id="@+id/campoTelefoneFunc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:background="#1A1A1A"
-                android:backgroundTint="#FFC107"
-                android:hint="Digite o telefone"
-                android:inputType="phone"
-                android:maxLength="15"
-                android:padding="12dp"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#888888" />
-
-            <!-- Email do Cliente -->
             <TextView
                 android:id="@+id/rotuloEmailFunc"
                 android:layout_width="match_parent"
@@ -107,7 +81,7 @@
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/campoEmailFunc"
+                android:id="@+id/emailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -119,60 +93,35 @@
                 android:textColor="#FFFFFF"
                 android:textColorHint="#888888" />
 
-            <!-- CPF do Cliente -->
-            <TextView
-                android:id="@+id/rotuloCPFFunc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="CPF"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
 
-            <EditText
-                android:id="@+id/campoCPFFunc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:background="#1A1A1A"
-                android:backgroundTint="#FFC107"
-                android:hint="Digite o CPF"
-                android:inputType="number"
-                android:maxLength="14"
-                android:padding="12dp"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#888888" />
-
-            <!-- Data de Nascimento do Cliente -->
             <TextView
                 android:id="@+id/rotuloDataNascimentoFunc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="Data de Nascimento"
+                android:text="Senha"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/campoDataNascimentoCliente"
+                android:id="@+id/senhaRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
                 android:background="#1A1A1A"
                 android:backgroundTint="#FFC107"
-                android:hint="Digite a data de nascimento"
-                android:inputType="date"
+                android:hint="Digite sua Senha"
+                android:inputType="textPassword"
                 android:padding="12dp"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#888888" />
 
-            <!-- Botão de Cadastro de Cliente -->
             <Button
-                android:id="@+id/buttonCadastrarFunc"
+                android:id="@+id/btCadastrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFC107"
-                android:text="CADASTRAR FUNCIONARIO"
+                android:text="CADASTRAR FUNCIONÁRIO"
                 android:textColor="#000000"
                 android:textStyle="bold" />
         </LinearLayout>
